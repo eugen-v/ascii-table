@@ -1,6 +1,7 @@
-Usage:
+#Usage
+```php
 $table = new AsciiTable($array);
-// Optionally set columns' color
+// Optionally set columns' colors
 $table->set_column_colors(array(
 	'Name' => '#FF8F8F',
 	'Color' => '#FFF98F',
@@ -8,5 +9,6 @@ $table->set_column_colors(array(
 	'Likes' => '#8FE1FF'
 ));
 echo $table->get_rendered_table_string();
+```
 
-*TIP*: embed the output string in <pre></pre> tags.
+**TIP**: embed the output string in `<pre></pre>` tags.
